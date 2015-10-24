@@ -1,0 +1,42 @@
+<ion-view class="feeds-categories-view">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-nav-title>
+    <span>&nbsp;</span>
+  </ion-nav-title>
+  <ion-content>
+    <div class="row categories-list">
+
+      <div class="col col-50">
+        <a class="feed-category" ui-sref="app.children({ parent: 1 })">
+          <img class="category-image" src="img/tree.jpg">
+          <div class="category-bg"></div>
+          <span class="category-title">Genealogy</span>
+        </a>
+      </div>
+      <div class="col col-50">
+        <a class="feed-category" ui-sref="app.praise">
+          <img class="category-image" src="img/bull.jpg">
+          <div class="category-bg"></div>
+          <span class="category-title">Praise</span>
+        </a>
+      </div>
+      <div class="col col-50">
+        <a class="feed-category" ui-sref="app.history">
+          <img class="category-image" src="img/hill.jpg">
+          <div class="category-bg"></div>
+          <span class="category-title">History</span>
+        </a>
+      </div>
+      <div class="col col-50">
+        <a class="feed-category" ui-sref="app.search">
+          <img class="category-image" src="img/search.jpg">
+          <div class="category-bg"></div>
+          <span class="category-title">Search</span>
+        </a>
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>

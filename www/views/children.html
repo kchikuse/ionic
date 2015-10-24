@@ -1,0 +1,13 @@
+<ion-view class="children category-feeds-view">
+  <ion-nav-title>
+    <span>{{ person.name }}</span>
+  </ion-nav-title>
+  <ion-content>
+    <div class="list category-feeds">
+      <a ng-repeat="child in children" class="item item-icon-right" ui-sref="app.children({ parent: child.id })">
+        <span class="title">{{ child.name }}</span>
+        <i class="icon ion-ios-arrow-forward" ng-show="child.count > 0"></i>
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

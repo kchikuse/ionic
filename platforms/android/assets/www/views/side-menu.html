@@ -1,0 +1,44 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content class="post-size-14px">
+    <ion-nav-bar class="bar app-top-bar">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left" class="main-menu" expose-aside-when="large">
+    <ion-content>
+      <ion-list>
+        <ion-item class="heading-item item item-avatar" nav-clear menu-close ui-sref="app.intro">
+          <div class="user-image-container">
+              <img class="user-image" ng-src="img/128.jpg">
+          </div>
+          <h2 class="greeting">Moyo</h2>
+          <p class="message">Chirandu</p>
+        </ion-item>       
+        <ion-item class="item-icon-left" nav-clear menu-close ui-sref="app.history">
+          <i class="icon ion-clock"></i>
+          <h2 class="menu-text">History</h2>
+        </ion-item>
+        <ion-item class="item-icon-left" nav-clear menu-close ui-sref="app.praise">
+          <i class="icon ion-heart"></i>
+          <h2 class="menu-text">Praise</h2>
+        </ion-item>        
+        <ion-item class="item-icon-left" nav-clear menu-close ui-sref="app.search">
+          <i class="icon ion-search"></i>
+          <h2 class="menu-text">Search</h2>
+        </ion-item>
+        <ion-item class="item-icon-left" nav-clear menu-close ui-sref="app.about">
+          <i class="icon ion-gear-a"></i>
+          <h2 class="menu-text">About</h2>
+        </ion-item>
+
+    </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

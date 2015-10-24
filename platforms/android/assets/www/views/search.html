@@ -1,0 +1,20 @@
+<ion-view class="search profile-view">
+  <ion-nav-title>
+    <span>&nbsp;</span>
+  </ion-nav-title>
+  <ion-content>
+    <div class="list list-inset">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" placeholder="Search" ng-model="data.query" ng-change="doSearch()">
+      </label>
+    </div>
+    <div class="list category-feeds">
+      <a ng-repeat="result in results" class="item item-icon-right" ui-sref="app.children({ parent: result.id })">
+        <span class="title">{{ result.name }}</span>
+        <p class="description">{{ result.parent || 'Earliest known ancestor' }}</p>
+        <i class="icon ion-ios-arrow-forward" ng-show="result.count > 0"></i>
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

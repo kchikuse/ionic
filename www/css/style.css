@@ -1,0 +1,26 @@
+.profile-view .top-content {
+    margin-bottom: 18vh;
+}
+
+.profile-view .user-twitter a {
+	color: #FF4C4C;
+	text-decoration: none;
+}
+
+.post-text {
+	font-size: 14px;
+	font-family: "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
+}
+
+.children span.title {
+    display: block;
+    padding: 5px 0 5px 0;
+}
+
+.search .description {
+	color: #CCC6C6;
+}
+
+.category-feeds .item {
+    padding-left: 24px;
+}
