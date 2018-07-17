@@ -2,7 +2,7 @@
 <widget id="com.afrobots.mhuri" version="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Chikuse</name>
   <description>A family app</description>
-  <author email="kchikuse@gmail.com" href="http://afrobots.co">Knowledge Chikuse</author>
+  <author email="" href="http://afrobots.co">Knowledge Chikuse</author>
   <content src="index.html"/>
   <access origin="*"/>
   <preference name="orientation" value="portrait"/>
